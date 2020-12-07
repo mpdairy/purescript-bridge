@@ -323,6 +323,7 @@ jsonOpts settings =
             Switches.unwrapSingleConstructors $
             fopts)
         , ("sumEncoding", "aesonSumEncoding")
+        , ("unwrapSingleArguments", "true")
         ]
 
 constraintsInner :: [Doc] -> Doc
