@@ -16,6 +16,7 @@ module Language.PureScript.Bridge.SumType
   , equal
   , order
   , DataConstructor(..)
+  , GDataConstructor(..)
   , RecordEntry(..)
   , Instance(..)
   , nootype
