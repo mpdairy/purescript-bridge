@@ -322,7 +322,7 @@ jsonOpts settings =
           , textStrict . T.toLower . T.pack . show .
             Switches.unwrapSingleConstructors $
             fopts)
-        , ("sumEncoding", "aesonSumEncoding")
+        -- , ("sumEncoding", "aesonSumEncoding")
         , ("unwrapSingleArguments", "true")
         ]
 
